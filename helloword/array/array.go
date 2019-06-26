@@ -35,6 +35,6 @@ func main() {
 
 	fmt.Println("arr2 ===> ", arr2)
 
-	a := []int{1, 3, 4}
-	fmt.Println(a)
+	a := [...]int{1, 3, 4}
+	fmt.Println(a, len(a))
 }
