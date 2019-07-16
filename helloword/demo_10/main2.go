@@ -61,6 +61,12 @@ func main() {
 
 	hs := HeroSlice{h1, h2, h3}
 
+	length := hs.Len()
+	less := hs.Less(0, 1)
+	hs.Swap(0, 1) // 会改变hs (接口是引用传递)
+	fmt.Println("len = ", length)
+	fmt.Println("less = ", less)
+
 	fmt.Println("排序前: ", hs) // [{Jack 23} {Tom 21} {Jy 10}]
 
 	sort.Sort(hs)

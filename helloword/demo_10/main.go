@@ -46,4 +46,8 @@ func main() {
 	var t T = 1
 
 	fmt.Println(t)
+
+	var u Usb = Phone{}
+
+	fmt.Println(u)
 }
