@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d36d376-9bff-428f-82b8-bfd028c84b7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloword/demo_10/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/demo_10/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloword/demo_10/main2.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloword/demo_10/main2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advance/defer&amp;return.go" beforeDir="false" afterPath="$PROJECT_DIR$/advance/defer&amp;return.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +30,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advance/defer&amp;return.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="74" column="14" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="14" />
+            <state relative-caret-position="798">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advance/slice.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+              <folding>
+                <element signature="e#90#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +56,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="63">
-                <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+                <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helloword/hello.go" />
         <option value="$PROJECT_DIR$/helloword/iota.go" />
         <option value="$PROJECT_DIR$/helloword/variable.go" />
         <option value="$PROJECT_DIR$/base/variable.go" />
@@ -124,14 +134,15 @@
         <option value="$PROJECT_DIR$/helloword/demo_11/main.go" />
         <option value="$PROJECT_DIR$/advance/defer&amp;return.md" />
         <option value="$PROJECT_DIR$/advance/defer&amp;return.go" />
+        <option value="$PROJECT_DIR$/advance/slice.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="392" />
-    <option name="width" value="1128" />
-    <option name="height" value="764" />
+    <option name="x" value="321" />
+    <option name="y" value="29" />
+    <option name="width" value="1028" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -141,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build defer&amp;return.go">
+  <component name="RunManager" selected="Go Build.go build slice.go">
     <configuration name="go build defer&amp;return.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -208,15 +219,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/helloword/demo_10/main2.go" />
-      <package value="awesomeProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/helloword/demo_09/main/main3.go" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -239,13 +241,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/advance/slice.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build defer&amp;return.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main2.go (1)" />
-        <item itemvalue="Go Build.go build main3.go" />
       </list>
     </recent_temporary>
   </component>
@@ -259,15 +270,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="392" width="1128" height="764" extended-state="0" />
+    <frame x="643" y="69" width="1028" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665925" weight="0.20055453" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665925" weight="0.22819473" />
       <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" weight="0.27391306" />
       <window_info id="Favorites" order="2" sideWeight="0.50213677" side_tool="true" weight="0.2885906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46189025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24923077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,13 +349,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloword/basic/switch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloword/basic/if.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -675,20 +679,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/advance/defer&amp;return.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/advance/defer&amp;return.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="63">
-            <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advance/defer&amp;return.go">
+    <entry file="file://$PROJECT_DIR$/advance/slice.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="14" />
+        <state relative-caret-position="205">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#90#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
